@@ -1,0 +1,7 @@
+CREATE TABLE colaboradores (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    email VARCHAR(255) UNIQUE,
+    cpf VARCHAR(14) UNIQUE,
+	cargo INT
+);
